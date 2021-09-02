@@ -40,7 +40,7 @@
     "koa-router": "^9.0.1",
     "koa-static": "^5.0.0",
     "line-reader": "^0.4.0",
-    "mongoose": "^5.7.5",
+    "mongoose": "^6.0.4",
     "nodemailer": "^6.4.10",
     "passport-local": "^1.0.0",
     "slp-validate": "^1.2.2",
