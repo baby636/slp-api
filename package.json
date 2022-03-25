@@ -11,7 +11,9 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "coverage:report": "nyc --reporter=html mocha --exit",
     "prep-test": "node util/users/delete-all-test-users.js",
-    "test:integration": "mocha --timeout 30000 test/integration/ --exit"
+    "test:integration": "mocha --timeout 30000 test/integration/ --exit",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
@@ -45,7 +47,8 @@
     "passport-local": "^1.0.0",
     "slp-validate": "^1.2.2",
     "winston": "^3.2.1",
-    "winston-daily-rotate-file": "^4.0.0"
+    "winston-daily-rotate-file": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -75,5 +78,6 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
-  }
+  },
+  "snyk": true
 }
