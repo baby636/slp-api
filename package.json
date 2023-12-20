@@ -37,7 +37,7 @@
     "koa-logger": "^3.1.0",
     "koa-mount": "^4.0.0",
     "koa-passport": "^4.1.1",
-    "koa-router": "^9.0.1",
+    "koa-router": "^11.0.2",
     "koa-static": "^5.0.0",
     "line-reader": "^0.4.0",
     "mongoose": "^5.7.5",
@@ -59,7 +59,7 @@
     "husky": "^4.2.5",
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
-    "semantic-release": "^17.0.0",
+    "semantic-release": "^17.0.1",
     "sinon": "^9.0.2",
     "standard": "^14.3.1"
   },
