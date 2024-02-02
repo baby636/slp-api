@@ -41,7 +41,7 @@
     "koa-static": "^5.0.0",
     "line-reader": "^0.4.0",
     "mongoose": "^5.7.5",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.9.9",
     "passport-local": "^1.0.0",
     "slp-validate": "^1.2.2",
     "winston": "^3.2.1",
